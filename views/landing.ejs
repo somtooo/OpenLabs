@@ -1,1 +1,76 @@
-<h1>OPEN LABS</h1>
+<% include partials/header %>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="stats">&nbsp;</div>
+    </div>
+
+     <!-- Header -->
+     <header>
+        <nav class="navbar navbar-fixed-top ">
+            <div class="container-fluid">
+                <div class="site-nav-wrapper">
+                    <div class="navbar-header">
+                        <!--logo-->
+                        <a class="navbar-brand smooth-scroll" href="#home">
+                            <img src="images/logo/logo2.png" alt="logo">
+                        </a>
+                        <!-- end logo-->
+                    </div>
+                    <!-- Main Menu -->
+                    <div class="container">
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav pull-right">
+                                    <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                    <li><a class="smooth-scroll" href="#about">About</a></li>
+                                    <li><a class="smooth-scroll" href="#team">Team</a></li>
+                                    <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                                    <li><a class="smooth-scroll" href="#SignUp">SignUp</a></li>
+                                    <li><a class="smooth-scroll" href="#Login">Login</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    </header>
+   
+    <!-- Header Ends -->
+
+    <!--Home Sections-->
+    <section id="home">
+        <!--video-->
+        <video id="home_video" autoplay muted poster="/images/video/poster.jpg" loop="loop">
+            <source src="/images/video/openlabs_1.mp4">
+            <source src="/images/video/solo.ogv">
+            <source src="/images/video/solo.webm">
+        </video>
+        <!--Overlay-->
+        <div id="home_overlay">
+
+        </div>
+         <!-- Home Content -->
+         <div id="home_text">
+
+            <div id="home_inner" class="text-center">
+
+                <div id="home-heading">
+                    <h1 id="home-heading-1">Lorem</h1><br>
+                    <h1 id="home-heading-2">Ipsum <span>Donor</span></h1>
+                </div>
+
+                <div id="sub-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam in nihil minima unde qui nihil minima.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Arrow Down -->
+        <a href="#about" id="arrow-down" class="smooth-scroll">
+            <i class="fa fa-angle-down"></i>
+        </a>
+
+    </section>
+    <% include partials/footer %>

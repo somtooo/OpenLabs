@@ -1,0 +1,121 @@
+/* preloader*/
+html,body{
+    height:100%;
+}
+#preloader {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#stats {
+    background-image: url("../images/preloader/Double\ Ring.gif");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+#home{
+    width: 100%;
+    height: 100%;
+}
+#home_video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home_overlay {
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#home_text {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home_inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: #fff;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;
+}
+#home-heading h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+
+#home-heading h1 span {
+    color: #08b2bf;
+    font-weight: 500;
+}
+
+
+#sub-text {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+    margin: 8px 0 30px 0;
+}
+/*Navigation bar===============*/
+.navbar{
+    padding: 35px 0 20px 0;
+}
+
+.site-nav-wrapper{
+    padding: 0 85px;
+}
+
+.navbar-brand{
+    padding:0;
+}
+
+ul.navbar-nav > li > a{
+    font-family:"Raleway", sans-serif;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+    background: none;
+    color:#0ab4c1;
+}
