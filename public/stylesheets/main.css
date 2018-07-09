@@ -105,13 +105,20 @@ html,body{
     padding:0;
 }
 
-ul.navbar-nav > li > a{
+/* used an id to getover specificity */
+#navy-bar li  a{
     font-family:"Raleway", sans-serif;
     color:#fff;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+/* Overide navbar-default background*/
+.navbar-default {
+    background: none;
+    border: none;
 }
 
 ul.navbar-nav > li > a:hover,
