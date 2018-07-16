@@ -121,8 +121,6 @@ html,body{
     border: none;
 }
 
-ul.navbar-nav > li > a:hover,
-ul.navbar-nav > li > a:focus {
-    background: none;
+#navy-bar >ul > li > a:hover,  #navy-bar> ul> li > a:focus {
     color:#0ab4c1;
 }
