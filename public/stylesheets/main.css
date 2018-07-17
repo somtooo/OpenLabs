@@ -59,10 +59,11 @@ section {
 #home {
     background: none;
     height: 100%;
+    position: relative;
 }
 
-#home_video {
-    position: fixed;
+#home_video{
+    position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
