@@ -385,7 +385,8 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 /* Contact Us Section */
-#contact-left p{
+
+#contact-left p {
     margin: 25px 0 2px 0;
 }
 
@@ -394,23 +395,21 @@ ul.campus-details {
     padding: 0;
 }
 
-ul.campus-details li{
-    font-family:"Open Sans", sans-serif;
+ul.campus-details li {
+    font-family: "Open Sans", sans-serif;
     margin-top: 13px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    
 }
 
-ul.campus-details li i{
+ul.campus-details li i {
     font-size: 20px;
     width: 45px;
-
 }
 
-#contact-left ul.social-list li a{
-    color:#212226;
+#contact-left ul.social-list li a {
+    color: #212226;
     border: 1px solid #212226;
     text-align: center;
 }
@@ -421,9 +420,10 @@ ul.campus-details li i{
 }
 
 /* contact right  */
+
 #contact-right {
     padding: 25px 30px;
-    -webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
 
@@ -431,12 +431,12 @@ ul.campus-details li i{
     font-size: 23px;
 }
 
-#contact-right p{
- margin-bottom: 25px;
+#contact-right p {
+    margin-bottom: 25px;
 }
 
 #contact-right form input.form-control {
-    font-family:"Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding: 10px 15px;
     font-size: 12px;
     line-height: 24px;
@@ -444,11 +444,27 @@ ul.campus-details li i{
 
 #contact-right form textarea.form-control {
     min-height: 164px;
-    font-family:"Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .btn-primary {
     color: #fff;
     background-color: #08b2bf;
     border-color: #08b2bf;
+}
+
+/* Footer */
+
+footer {
+    background: black;
+    padding: 30px;
+}
+
+footer p {
+    color: #fff;
+    line-height: 20px;
+}
+
+footer p span {
+    color: #08b2bf;
 }
