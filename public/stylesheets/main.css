@@ -159,10 +159,6 @@ section {
     border: none;
 }
 
-#navy-bar>ul>li>a:hover,
-#navy-bar>ul>li>a:focus {
-    color: #0ab4c1;
-}
 
 .content-box-lg {
     padding: 120px 0;
@@ -178,7 +174,6 @@ section {
 
 /* =========================================
         Vertical/Horizontal Headings
-============================================ */
 
 .vertical-heading h5 {
     color: #08b2bf;
@@ -360,4 +355,8 @@ ul.social-list li:nth-child(1) a:hover {
     position: absolute;
     bottom: -13px;
     left: 23%;
+}
+
+#navy-bar >ul > li > a:hover,  #navy-bar> ul> li > a:focus {
+    color:#0ab4c1;
 }
