@@ -56,6 +56,10 @@ section {
     margin-left: -100px;
 } */
 
+.overflow {
+    overflow:hidden;
+}
+
 #home {
     background: none;
     height: 100%;

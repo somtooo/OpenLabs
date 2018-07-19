@@ -1,10 +1,10 @@
 /* Preloader */
-$(window).on("load", function () {
+$(window).on("load", function() {
     $("#stats").fadeOut();
     $("#preloader").delay(500).fadeOut();
 });
 // Team section
-$(function () {
+$(function() {
     $("#team-members").owlCarousel({
         items: 2,
         autoplay: true,
@@ -28,33 +28,39 @@ $(function () {
 });
 
 // =====Progress bars=======
-$(function () {
-    $("#skill-elements").waypoint(function () {
-        $(".progress-bar").each(function () {
+$(function() {
+    $("#skill-elements").waypoint(function() {
+        $(".progress-bar").each(function() {
             $(this).animate({
                 width: $(this).attr("aria-valuenow") + "%"
             }, 1000);
         });
         this.destroy();
     }, {
-        offset: 'bottom-in-view'
-    });
+            offset: 'bottom-in-view'
+        });
 });
 
 document.getElementById('sign_u').addEventListener("click", function() {
-	document.querySelector('#bg-modal').style.display = "flex";
+    document.querySelector('#bg-modal').style.display = "flex";
+    window.location.hash = "home";
+    document.querySelector("body").classList.add("overflow");
 });
 
 document.querySelector('#close').addEventListener("click", function() {
-	document.querySelector('#bg-modal').style.display = "none";
+    document.querySelector('#bg-modal').style.display = "none";
+    document.querySelector("body").classList.remove("overflow");
 });
 
 document.getElementById('login').addEventListener("click", function() {
-	document.querySelector('#modal-form').style.display = "flex";
+    document.querySelector('#modal-form').style.display = "flex";
+    window.location.hash = "home";
+    document.querySelector("body").classList.add("overflow");
 });
 
 document.querySelector('#close1').addEventListener("click", function() {
-	document.querySelector('#modal-form').style.display = "none";
+    document.querySelector('#modal-form').style.display = "none";
+    document.querySelector("body").classList.remove("overflow");
 });
 
 
