@@ -40,3 +40,22 @@ $(function () {
         offset: 'bottom-in-view'
     });
 });
+
+document.getElementById('sign_u').addEventListener("click", function() {
+	document.querySelector('#bg-modal').style.display = "flex";
+});
+
+document.querySelector('#close').addEventListener("click", function() {
+	document.querySelector('#bg-modal').style.display = "none";
+});
+
+document.getElementById('login').addEventListener("click", function() {
+	document.querySelector('#modal-form').style.display = "flex";
+});
+
+document.querySelector('#close1').addEventListener("click", function() {
+	document.querySelector('#modal-form').style.display = "none";
+});
+
+
+
