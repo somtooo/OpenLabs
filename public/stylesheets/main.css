@@ -489,6 +489,12 @@ footer p span {
 	position: relative;
 	border-radius: 4px;
 } */
+#login{
+    cursor:pointer;
+}
+#sign_u{
+    cursor: pointer;
+}
 #close {
 	position: absolute;
 	top: 0;
