@@ -43,22 +43,22 @@ $(function() {
 
 document.getElementById('sign_u').addEventListener("click", function() {
     document.querySelector('#bg-modal').style.display = "flex";
-    
+    window.location.hash = "home";
+    document.querySelector("body").classList.add("overflow");
 });
 
 document.querySelector('#close').addEventListener("click", function() {
     document.querySelector('#bg-modal').style.display = "none";
-    
-    
+    document.querySelector("body").classList.remove("overflow");
 });
 
 document.getElementById('login').addEventListener("click", function() {
     document.querySelector('#modal-form').style.display = "flex";
+    window.location.hash = "home";
+    document.querySelector("body").classList.add("overflow");
 });
 
 document.querySelector('#close1').addEventListener("click", function() {
     document.querySelector('#modal-form').style.display = "none";
+    document.querySelector("body").classList.remove("overflow");
 });
-
-
-
