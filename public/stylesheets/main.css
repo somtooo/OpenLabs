@@ -59,9 +59,10 @@ section {
 #home {
     background: none;
     height: 100%;
+    position: relative;
 }
 
-#home_video {
+#home_video{
     position: fixed;
     top: 0;
     left: 0;
@@ -211,6 +212,42 @@ section {
     margin: 0;
 }
 
+/* -================About us Section========== */
+#about {
+    padding-top:30px;
+    display: relative;
+}
+#about u {
+    text-decoration: none;
+    border-bottom: 3px solid #08b2bf;
+}
+
+#myCarousel a {
+    background: none;
+}
+
+/* used to make fake border */
+.story:after{
+    content:"";
+    display:block;
+    margin:0;
+    width: 90%;
+    padding-top:20px;
+    border-bottom: 3px solid #08b2bf;
+}
+
+.item {
+    margin-top: 30px;
+    text-align:center;
+}
+
+.item hr {
+    border-width: 2px;
+    border-color:#08b2bf;
+}
+.cards {
+    margin-top:40px;
+}
 /* -================Team Section========== */
 
 #left-team .vertical-heading {
