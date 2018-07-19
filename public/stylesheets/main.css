@@ -480,15 +480,6 @@ footer p span {
 	align-items: center;
 }
 
-/* #content {
-	height: 300px;
-	width: 500px;
-	background-color: white;
-	text-align: center;
-	padding: 20px;
-	position: relative;
-	border-radius: 4px;
-} */
 #login{
     cursor:pointer;
 }
