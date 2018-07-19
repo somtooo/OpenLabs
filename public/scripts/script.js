@@ -1,10 +1,10 @@
 /* Preloader */
-$(window).on("load", function () {
+$(window).on("load", function() {
     $("#stats").fadeOut();
     $("#preloader").delay(500).fadeOut();
 });
 // Team section
-$(function () {
+$(function() {
     $("#team-members").owlCarousel({
         items: 2,
         autoplay: true,
@@ -28,17 +28,17 @@ $(function () {
 });
 
 // =====Progress bars=======
-$(function () {
-    $("#skill-elements").waypoint(function () {
-        $(".progress-bar").each(function () {
+$(function() {
+    $("#skill-elements").waypoint(function() {
+        $(".progress-bar").each(function() {
             $(this).animate({
                 width: $(this).attr("aria-valuenow") + "%"
             }, 1000);
         });
         this.destroy();
     }, {
-        offset: 'bottom-in-view'
-    });
+            offset: 'bottom-in-view'
+        });
 });
 
 document.getElementById('sign_u').addEventListener("click", function() {
