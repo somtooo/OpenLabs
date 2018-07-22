@@ -240,18 +240,50 @@ section {
     border-bottom: 3px solid #08b2bf;
 }
 
-.item {
-    margin-top: 30px;
-    text-align:center;
+.cards{
+    margin-top:30px;
+    background: #f7f7f7;
+}
+.flex-row {
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:10px;
 }
 
-.item hr {
-    border-width: 2px;
-    border-color:#08b2bf;
+
+
+.card-item {
+    flex:1;
+    min-height:200px;
+    min-width:300px;
+    padding-bottom:10px;
+    text-align:center;
+    margin-top:20px;
+    position:relative;
 }
-.cards {
-    margin-top:40px;
+
+/* media queries for about */
+@media (min-width: 650px) {
+    .flex-row:nth-of-type(1) .card-item{
+	border-bottom: 3px solid #08b2bf;
+    }
+
+    .flex-row .card-item:nth-of-type(1) {
+	margin-right: 20px;
+    }
+
+    .flex-row .card-item:nth-of-type(1):after{
+	content: "";
+	border-right: 3px solid #08b2bf;
+	height:200px;
+	width:3px;
+	position:absolute;
+	top:-15px;
+	right:-10px;
+    }   
 }
+
+
 /* -================Team Section========== */
 
 #left-team .vertical-heading {
