@@ -158,7 +158,7 @@ section {
 
 /* Overide navbar-default background*/
 .override{
-    background-color: #000;
+    background-color:#020808;
     
 }
 .navbar-default {
@@ -660,25 +660,37 @@ h1{
 }
 /* Form design End */
 /* ======================== */
+/* Filter */
+.btn-success {
+    color: #fff;
+    background-color: #08b2bf;
+    border-color:  #08b2bf;
+}
 /* ===================== */
 /* ====== SECOND PAGE */
 .scale{
     width: 926px;
     height: 513px !important;
 }
-
+/* ==Riht side */
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 15px;
+}
 /* ===RESULT SECTION */
 .header-1 {
     text-align: center;
-    font-weight: 200;
-    font-size: 1.8em;
+    font-weight: 300;
+    font-size: 54px;
     padding: .7em 0 .5em;
     line-height: 1.2;
 }
 .header-2 {
-    background: #011b51;
+    background: #08b2bf;
     text-align: center;
-    font-size: 1.125em;
+    font-size: 30px;
     color: #fff;
     padding: .65em 0;
     line-height: 1;
@@ -689,11 +701,12 @@ h1{
 .header-3 {
     background: #eaeaea;
     text-align: center;
-    font-size: 1em;
+    font-size: 22px;
     padding: .5em 0;
     line-height: 1.2;
     margin-bottom: .2em;
-    font-weight: 200;
+    font-weight: 400;
+    font-style: bold;
 }
 
 #expand{
@@ -721,7 +734,7 @@ h1{
     padding: .7em 0;
     text-align: center;
     cursor: pointer;
-    color: #214cb8;
+    color: #08b2bf;
 }
 
 .callfn a:hover
