@@ -157,11 +157,9 @@ section {
 }
 
 /* Overide navbar-default background*/
-#overide {
-    background-color:#020808;
-}
+
 .navbar-default {
-    background-color:#020808;
+    background:none;
     border: none;
 }
 
@@ -660,84 +658,4 @@ h1{
 /* Form design End */
 /* ======================== */
 /* Filter */
-.btn-success {
-    color: #fff;
-    background-color: #08b2bf;
-    border-color:  #08b2bf;
-}
-/* ===================== */
-/* ====== SECOND PAGE */
-.scale{
-    width: 926px;
-    height: 513px !important;
-}
-/* ==Riht side */
-.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    padding-top: 15px;
-}
-/* ===RESULT SECTION */
-.header-1 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 54px;
-    padding: .7em 0 .5em;
-    line-height: 1.2;
-}
-.header-2 {
-    background: #08b2bf;
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-    padding: .65em 0;
-    line-height: 1;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 1px;
-}
-.header-3 {
-    background: #eaeaea;
-    text-align: center;
-    font-size: 22px;
-    padding: .5em 0;
-    line-height: 1.2;
-    margin-bottom: .2em;
-    font-weight: 400;
-    font-style: bold;
-}
 
-#expand{
-
-        display: inline-block;
-        background: white;
-        padding: 0 .5em;
-        vertical-align: middle;
-}
-.showMore {
-    background: none;
-    background-size: 80% 1px;
-    background-image: linear-gradient(to right, #fff 10%, #dcdcdc 25%, #dcdcdc 75%, #fff 90%);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border: 0;
-    display: block;
-    width: 100%;
-    clear: both;
-    font-weight: normal;
-    font-size: 1empx;
-    color: inherit;
-    font-size: 1.32em;
-    position: relative;
-    padding: .7em 0;
-    text-align: center;
-    cursor: pointer;
-    color: #08b2bf;
-}
-
-.callfn a:hover
-{
-    border: 50px;
-    border-color: #08b2bf;
-}
