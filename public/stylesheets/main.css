@@ -157,12 +157,11 @@ section {
 }
 
 /* Overide navbar-default background*/
-.override{
+#overide {
     background-color:#020808;
-    
 }
 .navbar-default {
-    background: none;
+    background-color:#020808;
     border: none;
 }
 
