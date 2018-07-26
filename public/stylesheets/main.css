@@ -217,6 +217,10 @@ section {
     margin: 0;
 }
 
+.control {
+    margin:30px auto;
+    width: 500px;
+}
 /* -================About us Section========== */
 #about {
     padding-top:30px;
