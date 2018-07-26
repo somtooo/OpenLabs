@@ -241,17 +241,19 @@ section {
     border-bottom: 3px solid #08b2bf;
 }
 
+.full-width{
+    width:100%;
+    background: #f7f7f7;
+}
+
 .cards{
     margin-top:30px;
-    background: #f7f7f7;
 }
 .flex-row {
     display:flex;
     flex-wrap:wrap;
     margin-top:10px;
 }
-
-
 
 .card-item {
     flex:1;
