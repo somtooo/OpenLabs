@@ -34,7 +34,7 @@ section {
 
 ====================*/
 
-/* #preloader {
+#preloader {
     background-color: white;
     position: fixed;
     top: 0;
@@ -54,7 +54,7 @@ section {
     top: 50%;
     margin-top: -100px;
     margin-left: -100px;
-} */
+}
 
 .overflow {
     overflow:hidden;
@@ -131,6 +131,10 @@ section {
     margin: 8px 0 30px 0;
 }
 
+#decrease{
+    width: 20%;
+}
+
 /*Navigation bar===============*/
 
 .navbar {
@@ -175,7 +179,27 @@ section {
 .content-box-sm {
     padding: 90px 0;
 }
-
+#up{
+    margin-bottom: 50px
+}
+.space{
+    margin-top: 20px;
+    
+}
+.space a{
+    
+    margin-left: 30px;
+    
+} 
+.space i{
+    
+    margin-top: 20px;
+    
+} 
+.space h5{
+    padding-bottom: 2px;
+    
+}
 .vertical-heading h5 {
     color: #08b2bf;
     font-size: 14px;
@@ -200,7 +224,9 @@ section {
     font-weight: 100;
     line-height: 45px;
 }
-
+.horizontal{
+    margin-bottom: 50px;
+}
 .horizontal-heading {
     margin-bottom: 80px;
 }
@@ -222,13 +248,11 @@ section {
     width: 500px;
 }
 /* -================About us Section========== */
-#about {
-    padding-top:30px;
-    display: relative;
-}
+
 #about u {
     text-decoration: none;
     border-bottom: 3px solid #08b2bf;
+    padding-bottom:15px ;
 }
 
 #myCarousel a {
@@ -289,7 +313,7 @@ section {
 	right:-10px;
     }   
 }
-
+/* ============End of About */
 
 /* -================Team Section========== */
 

@@ -8,7 +8,7 @@ $(function() {
     $("#team-members").owlCarousel({
         items: 2,
         autoplay: true,
-        smartSpeed: 700,
+        smartSpeed: 300,
         loop: true,
         autoplayHoverPause: true,
         nav: true,
