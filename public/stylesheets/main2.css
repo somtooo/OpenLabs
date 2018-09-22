@@ -203,3 +203,102 @@ footer p span {
     background: none;
 }
 
+
+
+/* Table Style */
+/* ------------------------------------ */
+
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+
+.limiter {
+  
+  
+  padding: 120px 0;
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+table {
+  width: 100%;
+  background-color: #fff;
+}
+
+th, td {
+  padding-right: 10px;
+  
+}
+
+.column100 {
+  width: auto;
+  padding-left: 25px;
+}
+
+.column100.column1 {
+  width: 265px;
+  padding-left: 42px;
+}
+
+.row100.head th {
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.row100 td {
+  padding-top: 18px;
+  padding-bottom: 14px;
+}
+
+/*==================================================================
+[ Ver2 ]*/
+.table100.ver2 td  {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.4;
+    color: #000;
+      font-size: 14px;
+      font-weight: 500;
+
+}
+.table100.ver2 th  {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: uppercase;
+  
+    background-color: #000;
+  }
+
+  .table100.ver2 tbody tr:nth-child(even) {
+    background-color: #95b1b3;
+  }
+
+.table100.ver2 .row100:hover td {
+  background-color: #08b2bf;
+  color: #fff;
+}
+
+.table100.ver2 .hov-column-ver2 {
+  background-color: #08b2bf;
+  color: #fff;
+}
+
+.table100.ver2 .hov-column-head-ver2 {
+  background-color: #271c1c !important;
+}
+
+
+
+/*==================================================================
+[ Ver2 ]*/
+
+
+
+
+
+
+
+/*End of Version 2
