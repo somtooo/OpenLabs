@@ -1,6 +1,6 @@
 # Open Labs
 
-Front end code for a college chatbot to determine if classes are open or in use. Backend code is in a private repo
+Front end code for a web app to determine if classes are open or in use.
 
 ## Getting Started
 
