@@ -11,7 +11,9 @@ app.get("/college", function(req, res) {
 });
 
 
-
+PORT = process.env.port || 3000;
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
-app.listen(process.env.port || 3000);
+app.listen(PORT,()=>{
+    console.log("Open Labs server is up")
+});
