@@ -45,7 +45,7 @@ section {
 }
 
 #stats {
-    background-image: url("../images/preloader/Double\ Ring.gif");
+    background-image: url("../images/preloader/Double-Ring.gif");
     background-repeat: no-repeat;
     width: 200px;
     height: 200px;
@@ -112,12 +112,14 @@ section {
 
 #home-heading h1 {
     color: #fff;
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 100;
     text-transform: uppercase;
     margin: 0;
     display: inline-block;
 }
+
+
 
 #home-heading h1 span {
     color: #08b2bf;
@@ -137,8 +139,14 @@ section {
 
 /*Navigation bar===============*/
 
+#logo_img {
+    padding: 0px 20px 0px 15px;
+    width: 35%;
+}
+
 .navbar {
-    padding: 35px 0 20px 0;
+    padding: 15px 0 20px 0;
+    height: 42px;
 }
 
 .site-nav-wrapper {
@@ -166,10 +174,17 @@ section {
     background:none;
     border: none;
 }
-
+.navbar-default.scrolled{
+    background: #10caca !important;
+}
 
 .content-box-lg {
+     padding: 120px 0;
+ }
+.content-box-lgg {
     padding: 120px 0;
+    background: #f7f7f7;
+
 }
 
 .content-box-md {
@@ -325,6 +340,8 @@ section {
     margin: 8px;
 }
 
+
+
 .team-overlay {
     background-color: rgba(33, 34, 38, 0.9);
     position: absolute;
@@ -472,7 +489,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 #statement .content-box-lg {
-    background: rgb(0, 0, 0, 0.2);
+    background: rgb(0, 0, 0,0.2);
 }
 
 #tech-statement {
