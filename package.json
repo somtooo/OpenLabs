@@ -1,12 +1,12 @@
 {
   "name": "open_labs",
   "version": "1.0.0",
-  "description": "Web applcation for student life",
+  "description": "Web application for student life",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "chukwurah somtoo",
+  "author": "Chukwurah Somtoo",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
