@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - 10.16.3
+cache: npm
+
+install:
+  - npm ci
+
+script:
+  - npm test
+  - npm run build
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: 7d9eccf0-331c-480d-bb78-f73da3724d4b
